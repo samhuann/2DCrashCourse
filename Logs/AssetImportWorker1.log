@@ -1,0 +1,1020 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.32f1 (b2e806cf271c) revision 11724806'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32045 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/huang/Documents/GitHub/2DCrashCourse
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51090
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/huang/Documents/GitHub/2DCrashCourse
+C:/Users/huang/Documents/GitHub/2DCrashCourse
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [37852]  Target information:
+
+Player connection [37852]  * "[IP] 10.203.252.239 [Port] 0 [Flags] 2 [Guid] 3502081661 [EditorId] 3502081661 [Version] 1048832 [Id] WindowsEditor(7,SAMUEL_LAPTOP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [37852] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [37852] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 10.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.32f1 (b2e806cf271c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/huang/Documents/GitHub/2DCrashCourse/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2860)
+    Vendor:   NVIDIA
+    VRAM:     7948 MB
+    Driver:   32.0.15.6607
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.004831 seconds.
+- Loaded All Assemblies, in  0.627 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.545 seconds
+Domain Reload Profiling: 1170ms
+	BeginReloadAssembly (198ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (258ms)
+		LoadAssemblies (193ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (255ms)
+			TypeCache.Refresh (253ms)
+				TypeCache.ScanAssembly (231ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (545ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (472ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (81ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (206ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.316 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.07 ms, found 4 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.338 seconds
+Domain Reload Profiling: 2649ms
+	BeginReloadAssembly (269ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (81ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (883ms)
+		LoadAssemblies (589ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (451ms)
+			TypeCache.Refresh (302ms)
+				TypeCache.ScanAssembly (282ms)
+			BuildScriptInfoCaches (127ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1338ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1092ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (210ms)
+			ProcessInitializeOnLoadAttributes (654ms)
+			ProcessInitializeOnLoadMethodAttributes (187ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 207 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6949 unused Assets / (5.1 MB). Loaded Objects now: 7627.
+Memory consumption went from 176.1 MB to 171.0 MB.
+Total: 12.576900 ms (FindLiveObjects: 1.403200 ms CreateObjectMapping: 1.310000 ms MarkObjects: 5.647600 ms  DeleteObjects: 4.214400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 201890.990454 seconds.
+  path: Assets/Art/FreeCuteTileset/BG1.png
+  artifactKey: Guid(23534202132dcc84485613e10b805025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/FreeCuteTileset/BG1.png using Guid(23534202132dcc84485613e10b805025) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7688d1922434319f546a5e3da9c694e1') in 0.1781018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.919192 seconds.
+  path: Assets/Art/FreeCuteTileset/Decors.png
+  artifactKey: Guid(5975f28b2c92bc14ea0966c0024288e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/FreeCuteTileset/Decors.png using Guid(5975f28b2c92bc14ea0966c0024288e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ccc89d5d4b44ceb9ff7836acc4d312b') in 0.0517999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/FreeCuteTileset/Mockup2x.png
+  artifactKey: Guid(85a8785c608806748b0ddff76cbc291f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/FreeCuteTileset/Mockup2x.png using Guid(85a8785c608806748b0ddff76cbc291f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1040e224daa26aeb968ba2ac4187ea5') in 0.0251339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.280704 seconds.
+  path: Assets/Art/Adventurer/adventurer-hand-combat-Sheet.png
+  artifactKey: Guid(bb23beb4f9189eb4e8c5935254f305f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/adventurer-hand-combat-Sheet.png using Guid(bb23beb4f9189eb4e8c5935254f305f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecfaf0756979163115fc90ddbc065a7e') in 0.0310662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/Adventurer/adventurer-v1.5-Sheet.png
+  artifactKey: Guid(573629a06eec55045bfbdafc49469464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/adventurer-v1.5-Sheet.png using Guid(573629a06eec55045bfbdafc49469464) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a40f1d19c64066a60d02371b2125a7e') in 0.033275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.314542 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-air-attack-3-end-01.png
+  artifactKey: Guid(bf81b2bab386abb4fbb15cc00bc0a6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-air-attack-3-end-01.png using Guid(bf81b2bab386abb4fbb15cc00bc0a6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '558a807a9932d555d97127c570d3f5a5') in 0.0343178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-air-attack-3-end-02.png
+  artifactKey: Guid(9c41a24852468734594aeac055817612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-air-attack-3-end-02.png using Guid(9c41a24852468734594aeac055817612) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fa0ff299dc2eee146359e5a1a10c6fd') in 0.0237814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-air-attack1-03.png
+  artifactKey: Guid(ba393ecc83e018a41a3e6f61fea99de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-air-attack1-03.png using Guid(ba393ecc83e018a41a3e6f61fea99de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24bdbc6fe84a604c25ff3320e4d84a91') in 0.0245739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-crnr-clmb-03.png
+  artifactKey: Guid(57ea9f333f5e27843b96b16750d41661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-crnr-clmb-03.png using Guid(57ea9f333f5e27843b96b16750d41661) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46a724af39c1d287266b6a3497202475') in 0.0258173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-bow-03.png
+  artifactKey: Guid(3cb4f7548c7a579428cfd06d18151faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-bow-03.png using Guid(3cb4f7548c7a579428cfd06d18151faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2584d718c5810d8982c696bbad0e5fc') in 0.0276655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-kick-00.png
+  artifactKey: Guid(8cae9af069cfbbe44bbc90e4b229d9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-kick-00.png using Guid(8cae9af069cfbbe44bbc90e4b229d9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe8aa586b20a15d56174c91afc9f0f95') in 0.0278583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-get-up-01.png
+  artifactKey: Guid(d4196dd6351c8d84d897b129a9ded952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-get-up-01.png using Guid(d4196dd6351c8d84d897b129a9ded952) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ef282972ecb34976546208b0c11ed11') in 0.0271557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-crnr-grb-02.png
+  artifactKey: Guid(71b7db18831896f4f8837de67e4168c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-crnr-grb-02.png using Guid(71b7db18831896f4f8837de67e4168c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e92c6d781538c8b1859cab1ca52830e6') in 0.0267639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-cast-01.png
+  artifactKey: Guid(a0d8f8235af00ee4cb0634555a9d7cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-cast-01.png using Guid(a0d8f8235af00ee4cb0634555a9d7cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd16efdb148a0159c9f9a7fc65da313c5') in 0.0339331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-kick-05.png
+  artifactKey: Guid(b91aa6b98d61c4a49bbf96f19a8fae8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-kick-05.png using Guid(b91aa6b98d61c4a49bbf96f19a8fae8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f11908390605af2135414ef64af9d2a') in 0.0339186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-jump-03.png
+  artifactKey: Guid(b7ddc02235a811c469c2b06741489a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-jump-03.png using Guid(b7ddc02235a811c469c2b06741489a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '618a907ee1a44114979119c1aadb9c8f') in 0.0316354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-crouch-02.png
+  artifactKey: Guid(458fa74d70c63374880e3cbc6f30ccd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-crouch-02.png using Guid(458fa74d70c63374880e3cbc6f30ccd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7a8dcd4320d21271080a504ac9d2428') in 0.023167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-run-punch-00.png
+  artifactKey: Guid(ab1a9672a60088d4fac69cbc3f904670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-run-punch-00.png using Guid(ab1a9672a60088d4fac69cbc3f904670) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '878693c59d705b49497f0729a3a15709') in 0.0350001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-punch-12.png
+  artifactKey: Guid(3584315ec78901b49b798ed18c2df309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-punch-12.png using Guid(3584315ec78901b49b798ed18c2df309) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5dde1ab164ebcabb2274e685048f0579') in 0.0320747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-fall-01.png
+  artifactKey: Guid(22010d3af3fcffa4fbc73fb7c26a164b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-fall-01.png using Guid(22010d3af3fcffa4fbc73fb7c26a164b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9c917a0ff1d1148fe46f6100b12edf5') in 0.0300442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-get-up-02.png
+  artifactKey: Guid(f0da54a21dd54fe42988d6b7a793a8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-get-up-02.png using Guid(f0da54a21dd54fe42988d6b7a793a8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d7165775f23e464f6bc7788eb60b769') in 0.0291624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-idle-03.png
+  artifactKey: Guid(b70a01c099e718f48a1c4960e3f84a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-idle-03.png using Guid(b70a01c099e718f48a1c4960e3f84a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c70179889a91b92bec64a16ac35653b') in 0.0302612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-bow-07.png
+  artifactKey: Guid(3dbf22a6bc9ffe04bb3dcb4f65c054de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-bow-07.png using Guid(3dbf22a6bc9ffe04bb3dcb4f65c054de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69677bfa9a57f8c9c4572e55cc0736ec') in 0.033337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-swrd-shte-03.png
+  artifactKey: Guid(83088967ba5fe7143ba616219cdf41c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-swrd-shte-03.png using Guid(83088967ba5fe7143ba616219cdf41c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba848bb6975b9eb1f2477f568b3dab62') in 0.0386618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-attack2-01.png
+  artifactKey: Guid(747654bdeacb8784b8b6c614d0edaecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-attack2-01.png using Guid(747654bdeacb8784b8b6c614d0edaecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0719db917339f9ee7c2521c1b2eedd60') in 0.0320142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-kick-02.png
+  artifactKey: Guid(3fb807ef42a4c9b468e64e4d532fbf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-kick-02.png using Guid(3fb807ef42a4c9b468e64e4d532fbf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '059b52c866647a58eb7d199de9553abe') in 0.0316875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-attack2-02.png
+  artifactKey: Guid(ea7d155ccb6b4964b8843fe5b7c1c265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-attack2-02.png using Guid(ea7d155ccb6b4964b8843fe5b7c1c265) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b05a1c6b32aa2f652a219fe633c7806') in 0.0314436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-attack1-01.png
+  artifactKey: Guid(42a52fb0e56d3d14697fb44f0fa55507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-attack1-01.png using Guid(42a52fb0e56d3d14697fb44f0fa55507) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd902c8539b6786f65856b59b25e6067a') in 0.0339405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-crnr-grb-00.png
+  artifactKey: Guid(ec4f08e01bca49a4fbf69391d00ee2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-crnr-grb-00.png using Guid(ec4f08e01bca49a4fbf69391d00ee2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ada6c52be0b5d2a485102f1b6beaa7ee') in 0.0285952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-get-up-03.png
+  artifactKey: Guid(4986a2471aa92c048ba8c0fe28aad667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-get-up-03.png using Guid(4986a2471aa92c048ba8c0fe28aad667) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de4bf8120e788ad677f12eaeff9dda62') in 0.0356784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-kick-01.png
+  artifactKey: Guid(bf2701fd48b936f4d885ad8aa089bc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-kick-01.png using Guid(bf2701fd48b936f4d885ad8aa089bc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82d54c4257f1b9b075da0f1ca112d49b') in 0.032718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-crouch-00.png
+  artifactKey: Guid(767bd54cf8d92cd4e95ab51bcedd93bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-crouch-00.png using Guid(767bd54cf8d92cd4e95ab51bcedd93bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5ea2ec8da99e8cf85694a7af75ec136') in 0.0311973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-punch-01.png
+  artifactKey: Guid(7f5de88d13713674291aa74f7d2221f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-punch-01.png using Guid(7f5de88d13713674291aa74f7d2221f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4254fd240d75db8bb92ccc7c8bde81f4') in 0.0318336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-bow-02.png
+  artifactKey: Guid(b325a3181eb7e804cb25bb56b8eb25d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-bow-02.png using Guid(b325a3181eb7e804cb25bb56b8eb25d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc298fa61af17d3fe3a9e2bf78824a54') in 0.0321091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-bow-08.png
+  artifactKey: Guid(e9e2fd3ab29db324dae9706223c40392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-bow-08.png using Guid(e9e2fd3ab29db324dae9706223c40392) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e17dae4b20e008990a0dfb2be0a9ad35') in 0.0297089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-run2-02.png
+  artifactKey: Guid(46896166665362d4091e233e27496c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-run2-02.png using Guid(46896166665362d4091e233e27496c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8fe69c1b79c3f35feb470299d0b0e068') in 0.0289447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-punch-00.png
+  artifactKey: Guid(04e4f6d3fef04d94b83553af826e7c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-punch-00.png using Guid(04e4f6d3fef04d94b83553af826e7c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebc8e643ce353cef14c86db915e0df53') in 0.0302859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-die-03.png
+  artifactKey: Guid(38fbd17cae777ff43bbf5835e092618d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-die-03.png using Guid(38fbd17cae777ff43bbf5835e092618d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ea6575f09bc0876f9bb553dce6ddfef') in 0.0293135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-run-punch-06.png
+  artifactKey: Guid(38da9ed56d6f80942934e4c95bd39897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-run-punch-06.png using Guid(38da9ed56d6f80942934e4c95bd39897) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16f6dc795f8be76f1c5ae59ad482a6b7') in 0.0347744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-stand-01.png
+  artifactKey: Guid(4c2d2581a7afd984687781c883d88dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-stand-01.png using Guid(4c2d2581a7afd984687781c883d88dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3558689fab11653dd99e6e18b5512bc5') in 0.0307253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-crnr-clmb-02.png
+  artifactKey: Guid(77915a18c96783b468718ee54713a744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-crnr-clmb-02.png using Guid(77915a18c96783b468718ee54713a744) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7db4388afa2069e3da9bc9b001b6389') in 0.034947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-crnr-jmp-01.png
+  artifactKey: Guid(bd7a7226359ed1541820d427e034413d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-crnr-jmp-01.png using Guid(bd7a7226359ed1541820d427e034413d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ddf8c39a99e236e3f7de930c41e0d73') in 0.0291736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-crnr-clmb-00.png
+  artifactKey: Guid(a9838f682d09a2f40a04a22e6437f7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-crnr-clmb-00.png using Guid(a9838f682d09a2f40a04a22e6437f7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f4bb620b0bf6863e8b94536a78a95e5') in 0.030897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-swrd-shte-00.png
+  artifactKey: Guid(e87d2b167b190d644a8edc27fa98c342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-swrd-shte-00.png using Guid(e87d2b167b190d644a8edc27fa98c342) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '933bfc36be9db9929f6fdc3acd651915') in 0.0309348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-drop-kick-02.png
+  artifactKey: Guid(3b56852eb3eb3eb4599005054d821c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-drop-kick-02.png using Guid(3b56852eb3eb3eb4599005054d821c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93750fb3e773fae7acce85fa44e15a97') in 0.0325629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-idle-00.png
+  artifactKey: Guid(eaf676def4d1dd14890b56fd4df198ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-idle-00.png using Guid(eaf676def4d1dd14890b56fd4df198ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3039c463cc4b2dd848aad70a30f5395') in 0.0268416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-swrd-drw-00.png
+  artifactKey: Guid(cb4897ae005b5c345bb091ff9b8a1977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-swrd-drw-00.png using Guid(cb4897ae005b5c345bb091ff9b8a1977) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e708f0c5d80355997eabffaeaaa234b') in 0.0278357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-run-02.png
+  artifactKey: Guid(59994f4d30f720a4194c3e104f1a752d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-run-02.png using Guid(59994f4d30f720a4194c3e104f1a752d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ce7bff98ca94de21250082d0f79191e') in 0.0281247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-drop-kick-00.png
+  artifactKey: Guid(0d4e9928205fbc34eb484e50c5e76729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-drop-kick-00.png using Guid(0d4e9928205fbc34eb484e50c5e76729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '023771a3e754d919838323db4ddc3567') in 0.0278004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-slide-01.png
+  artifactKey: Guid(0e3a6538b756aef49803af02cb8ca4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-slide-01.png using Guid(0e3a6538b756aef49803af02cb8ca4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e0530f1a73c56056e7310a3b2909df9') in 0.0260634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-idle-02.png
+  artifactKey: Guid(64f4da46c9484e44285233ef415b6f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-idle-02.png using Guid(64f4da46c9484e44285233ef415b6f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29d01e96085472d7212e9175cfeb3b4f') in 0.0143583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-attack1-03.png
+  artifactKey: Guid(a89c3e2f4ecf706478bc0016c097543f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-attack1-03.png using Guid(a89c3e2f4ecf706478bc0016c097543f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e316d3d3ed37115a7b2b0a52b6009f8e') in 0.029079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-idle-01.png
+  artifactKey: Guid(0ada8e72577a00049b2ddaafb6537dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-idle-01.png using Guid(0ada8e72577a00049b2ddaafb6537dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3317c4dfdb1aa61d98eb6df2e35153dc') in 0.0310091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-run-punch-03.png
+  artifactKey: Guid(ab847b9b6543d9d4c85b5c511b0c1b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-run-punch-03.png using Guid(ab847b9b6543d9d4c85b5c511b0c1b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '575e9f83237bc7e1f4c5cb7310dae68c') in 0.0285833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/FreeKnight/Colour1
+  artifactKey: Guid(d459c042b15cac04587b0b071e842b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/FreeKnight/Colour1 using Guid(d459c042b15cac04587b0b071e842b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec8ea0e30979b1143563cd616517f027') in 0.0011163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-crouch-walk-02.png
+  artifactKey: Guid(6641138dde293e3428b2dfca5a00c2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-crouch-walk-02.png using Guid(6641138dde293e3428b2dfca5a00c2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19726c77b658c5d18fe89fc9f23e5d4a') in 0.0301056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-bow-jump-05.png
+  artifactKey: Guid(b79a27ddda7b69f458eb2e20e37f3652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-bow-jump-05.png using Guid(b79a27ddda7b69f458eb2e20e37f3652) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3873e867006d27495722fa3f5d15ee9f') in 0.0248694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-swrd-shte-02.png
+  artifactKey: Guid(85504104c93895a42abf61d6de497b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-swrd-shte-02.png using Guid(85504104c93895a42abf61d6de497b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5337ae39b3a9942f8c33a2831deb1eb') in 0.0340949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-smrslt-00.png
+  artifactKey: Guid(b6efcee39a7ff724c861f7de8b262e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-smrslt-00.png using Guid(b6efcee39a7ff724c861f7de8b262e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc5bd02ad874eeab3d85353c180c82c0') in 0.0294314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-run2-03.png
+  artifactKey: Guid(89af033fa565bc54aa6dfab7e8dd5be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-run2-03.png using Guid(89af033fa565bc54aa6dfab7e8dd5be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de6de21250e9d2525a37f18deb1d02e4') in 0.0271914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-run2-01.png
+  artifactKey: Guid(00e0b23fd16a3874ba513d1c6a529bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-run2-01.png using Guid(00e0b23fd16a3874ba513d1c6a529bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c1b822f98744a7c4dcf80499131610f') in 0.0286838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-punch-03.png
+  artifactKey: Guid(f3348c4304bcca747b61be95f48b16d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-punch-03.png using Guid(f3348c4304bcca747b61be95f48b16d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae2512e9128ba077dad4d6853672ad30') in 0.031346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-swrd-drw-01.png
+  artifactKey: Guid(668a768c3ec77c64489ca22b94c128aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-swrd-drw-01.png using Guid(668a768c3ec77c64489ca22b94c128aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2122601f19848f6518513d23d6581fb3') in 0.0259819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/FreeKnight/Colour1/NoOutline
+  artifactKey: Guid(3b74cc4380aa76740aa757ce26d74be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/FreeKnight/Colour1/NoOutline using Guid(3b74cc4380aa76740aa757ce26d74be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a68034e85e63a4059a2d5d43daf3b760') in 0.0009412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-swrd-shte-01.png
+  artifactKey: Guid(77b00c5fcffb112429ec25d202b9f5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-swrd-shte-01.png using Guid(77b00c5fcffb112429ec25d202b9f5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b60df46373aa6546a599c4ed10fbfde9') in 0.0260117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-die-00.png
+  artifactKey: Guid(532eb27aff38e234ca0119e3f08f7987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-die-00.png using Guid(532eb27aff38e234ca0119e3f08f7987) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63cf89f0c5082deca7bb44baaf9042b4') in 0.0155437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-kick-04.png
+  artifactKey: Guid(26033f08dd9ba2445bf6c396eb92224d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-kick-04.png using Guid(26033f08dd9ba2445bf6c396eb92224d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d4800de88f848b055453a2d0807f07d') in 0.0252006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-crouch-walk-04.png
+  artifactKey: Guid(925d7d05daf34dc44ac528c0a77dac7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-crouch-walk-04.png using Guid(925d7d05daf34dc44ac528c0a77dac7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef03ccfaaa5bad48bfe740dffdbdef39') in 0.0287929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-idle-2-03.png
+  artifactKey: Guid(f418ca11eb1503744b651139907c17e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-idle-2-03.png using Guid(f418ca11eb1503744b651139907c17e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'beba8379ee977a86d27023ec8d3cf6a3') in 0.0287186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-kick-07.png
+  artifactKey: Guid(e9fefe8e3fc11f44f838e2107ab6d11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-kick-07.png using Guid(e9fefe8e3fc11f44f838e2107ab6d11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a08cf663dc99c25a2e00d1b637513e21') in 0.0286388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-punch-05.png
+  artifactKey: Guid(7b194eabc4cf9e34c89a4bd950223e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-punch-05.png using Guid(7b194eabc4cf9e34c89a4bd950223e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '999d8aab11fa5a5ec0568ac121dda77a') in 0.0292171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-hurt-02.png
+  artifactKey: Guid(60bb1510f44a26f44906a3fd8206a957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-hurt-02.png using Guid(60bb1510f44a26f44906a3fd8206a957) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ad263968b878d0d0871cc70ac748207') in 0.0300144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-bow-00.png
+  artifactKey: Guid(ac5f35106d5a8a7478472eac1190d5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-bow-00.png using Guid(ac5f35106d5a8a7478472eac1190d5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31741b87c7ee5e59f8f882d04ecc5e27') in 0.0312908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-attack2-04.png
+  artifactKey: Guid(3097155699b2e734e9f9c4fdb5a357f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-attack2-04.png using Guid(3097155699b2e734e9f9c4fdb5a357f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aed461fd8c90a8c2cb4ee87b64e594cc') in 0.0303956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-crnr-clmb-01.png
+  artifactKey: Guid(9a29df18c4f92db4f97f3cb1587cb535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-crnr-clmb-01.png using Guid(9a29df18c4f92db4f97f3cb1587cb535) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '758ba3c6ed603dbf97c6691428be2502') in 0.0402166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-attack1-04.png
+  artifactKey: Guid(b5f7d4894a6c1cc4597e2e8fe11ad607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-attack1-04.png using Guid(b5f7d4894a6c1cc4597e2e8fe11ad607) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f28190ceab6916770dad3f20ae09e81') in 0.0310417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-smrslt-02.png
+  artifactKey: Guid(2bbb790999505a044bca0d4abcbe3819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-smrslt-02.png using Guid(2bbb790999505a044bca0d4abcbe3819) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f51435df17f209c663df218694216a1e') in 0.0279199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-jump-00.png
+  artifactKey: Guid(0f0a380473fdc2549bd1d47cfe521eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-jump-00.png using Guid(0f0a380473fdc2549bd1d47cfe521eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e120cedf6a995f0bd36a8b0e6cfdc7ab') in 0.0349958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-run-03.png
+  artifactKey: Guid(eabd91c1ce507eb469e161a68a72d73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-run-03.png using Guid(eabd91c1ce507eb469e161a68a72d73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56ceac76fe1fd329644d075e12156b3a') in 0.0296626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-crouch-walk-03.png
+  artifactKey: Guid(9e0f3c5aec8489640aa0cfa551ff6360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-crouch-walk-03.png using Guid(9e0f3c5aec8489640aa0cfa551ff6360) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '119a1d4f05cc1063541fbbdfdde425a6') in 0.0297335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-bow-05.png
+  artifactKey: Guid(5107db4cce6e7cf419a271b6b3b552a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-bow-05.png using Guid(5107db4cce6e7cf419a271b6b3b552a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f70e0a227319c2e6e70176ba1575164b') in 0.032511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-punch-10.png
+  artifactKey: Guid(b1dcc31337f37ee4592a0407353d0c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-punch-10.png using Guid(b1dcc31337f37ee4592a0407353d0c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c3c0e675df9193cb54992c551b2f8f5') in 0.0290107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-run2-00.png
+  artifactKey: Guid(4b194ea2cccaed446acd06dc1c983b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-run2-00.png using Guid(4b194ea2cccaed446acd06dc1c983b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a56869b9400c88388cd36007e5d9271d') in 0.0344407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/Adventurer/Individual Sprites/adventurer-crnr-grb-01.png
+  artifactKey: Guid(4464d8837f8d7454db6e01f6e2815a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Adventurer/Individual Sprites/adventurer-crnr-grb-01.png using Guid(4464d8837f8d7454db6e01f6e2815a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92eca1be6fc5d3c2ecf429c6f86b264d') in 0.032173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078388 seconds.
+  path: Assets/Art/FreeKnight/Colour1/NoOutline/120x80_gifs/__Attack2NoMovement.gif
+  artifactKey: Guid(a4e82e4c05faa624b9458b9335977fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/FreeKnight/Colour1/NoOutline/120x80_gifs/__Attack2NoMovement.gif using Guid(a4e82e4c05faa624b9458b9335977fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84847b527f9a16c128a07afab2db8e83') in 0.0260765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/FreeKnight/Colour1/NoOutline/120x80_gifs/__Dash.gif
+  artifactKey: Guid(0e288c53217274c4ea0475d74a8fb70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/FreeKnight/Colour1/NoOutline/120x80_gifs/__Dash.gif using Guid(0e288c53217274c4ea0475d74a8fb70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6ab5fb2c8484ba511f577333173f6e3') in 0.0260388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/FreeKnight/Colour1/NoOutline/120x80_gifs/__DeathNoMovement.gif
+  artifactKey: Guid(1f82a778ee3f3774ab8967b270459eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/FreeKnight/Colour1/NoOutline/120x80_gifs/__DeathNoMovement.gif using Guid(1f82a778ee3f3774ab8967b270459eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6842fcf44081bb8f0ff6d7e9d1389e3c') in 0.027454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Art/FreeKnight/Colour1/NoOutline/120x80_gifs/__AttackCombo2hit.gif
+  artifactKey: Guid(47a257e4658d59448a4e6e1fce20e1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/FreeKnight/Colour1/NoOutline/120x80_gifs/__AttackCombo2hit.gif using Guid(47a257e4658d59448a4e6e1fce20e1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9dbd1793a79575184725c76e1696c523') in 0.0098454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/FreeKnight/Colour1/NoOutline/120x80_gifs/__SlideTransitionStart.gif
+  artifactKey: Guid(42a141a63ccf7b14c95d9547694e98c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/FreeKnight/Colour1/NoOutline/120x80_gifs/__SlideTransitionStart.gif using Guid(42a141a63ccf7b14c95d9547694e98c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2af0931b5359036f561505c79fb9465') in 0.0137152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/FreeKnight/Colour1/NoOutline/120x80_gifs/__Jump.gif
+  artifactKey: Guid(10beb8f8aedcb1743a969e7c24ff09bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/FreeKnight/Colour1/NoOutline/120x80_gifs/__Jump.gif using Guid(10beb8f8aedcb1743a969e7c24ff09bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3dbdd1d1cac930e9031180141abf9db0') in 0.0275015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/FreeKnight/Colour1/NoOutline/120x80_gifs/__AttackComboNoMovement.gif
+  artifactKey: Guid(79b455d1ec509fe4597656213de45326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/FreeKnight/Colour1/NoOutline/120x80_gifs/__AttackComboNoMovement.gif using Guid(79b455d1ec509fe4597656213de45326) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d14ff301f7fbc1b8e75b988eb4fd997') in 0.0140651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Art/FreeKnight/Colour1/NoOutline/120x80_gifs/__WallClimb.gif
+  artifactKey: Guid(24d6119cafd3e1944af293a3bef64533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/FreeKnight/Colour1/NoOutline/120x80_gifs/__WallClimb.gif using Guid(24d6119cafd3e1944af293a3bef64533) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d97185174999f2b26a8f2c969fc6b7f') in 0.0271893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/FreeKnight/Colour1/NoOutline/120x80_gifs/__WallHang.gif
+  artifactKey: Guid(c30555210527ad141bdb404e9a45d0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/FreeKnight/Colour1/NoOutline/120x80_gifs/__WallHang.gif using Guid(c30555210527ad141bdb404e9a45d0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c1880865480b0beacef339da04b231f') in 0.0139625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/FreeKnight/Colour1/NoOutline/120x80_gifs/__Fall.gif
+  artifactKey: Guid(b877de1839d78b04fa4daacc2d8f6953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/FreeKnight/Colour1/NoOutline/120x80_gifs/__Fall.gif using Guid(b877de1839d78b04fa4daacc2d8f6953) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '410e4e63d434334a938e4148a89bf622') in 0.0289117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.390183 seconds.
+  path: Assets/Art/FreeKnight/Colour1/NoOutline/120x80_PNGSheets/_Attack2NoMovement.png
+  artifactKey: Guid(c1cbec25dd5a740479b7a2a6bc65ab11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/FreeKnight/Colour1/NoOutline/120x80_PNGSheets/_Attack2NoMovement.png using Guid(c1cbec25dd5a740479b7a2a6bc65ab11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0609af2211999cd64d0c030ca89c5a1') in 0.0571128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/FreeKnight/Colour1/NoOutline/120x80_PNGSheets/_Idle.png
+  artifactKey: Guid(34c7ce898426aeb4185289e534d4f49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/FreeKnight/Colour1/NoOutline/120x80_PNGSheets/_Idle.png using Guid(34c7ce898426aeb4185289e534d4f49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '813c178ec2ea701d607c83311a73ee15') in 0.0268497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/FreeKnight/Colour1/NoOutline/120x80_PNGSheets/_CrouchFull.png
+  artifactKey: Guid(56f8cbb86f85b504dad70920a4f154dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/FreeKnight/Colour1/NoOutline/120x80_PNGSheets/_CrouchFull.png using Guid(56f8cbb86f85b504dad70920a4f154dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc65ba21160d49f51a09d492ff9e2c6a') in 0.0288396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/FreeKnight/Colour1/NoOutline/120x80_PNGSheets/_Crouch.png
+  artifactKey: Guid(483fbf5e8069850429955383db106808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/FreeKnight/Colour1/NoOutline/120x80_PNGSheets/_Crouch.png using Guid(483fbf5e8069850429955383db106808) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e9fd9ca9200471b08a4b8c6cf299b1b') in 0.0284589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/FreeKnight/Colour1/NoOutline/120x80_PNGSheets/_SlideFull.png
+  artifactKey: Guid(cd3d75b1bbfef934db5a0ec26104f449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/FreeKnight/Colour1/NoOutline/120x80_PNGSheets/_SlideFull.png using Guid(cd3d75b1bbfef934db5a0ec26104f449) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '281db2731d97a75340fb67978fcbcb72') in 0.0243756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/FreeKnight/Colour1/NoOutline/120x80_PNGSheets/_CrouchTransition.png
+  artifactKey: Guid(4fcfd86636a43bc408607d5d6249f58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/FreeKnight/Colour1/NoOutline/120x80_PNGSheets/_CrouchTransition.png using Guid(4fcfd86636a43bc408607d5d6249f58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c88c455b1dc9c0eb88bdd0be2b31717') in 0.0245637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/FreeKnight/Colour1/NoOutline/120x80_PNGSheets/_WallSlide.png
+  artifactKey: Guid(876e34ade3f4b6c4db60bc882bea0811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/FreeKnight/Colour1/NoOutline/120x80_PNGSheets/_WallSlide.png using Guid(876e34ade3f4b6c4db60bc882bea0811) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0955b2dbfa2fd37f69c422bcba3192bf') in 0.027332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Art/FreeKnight/Colour1/NoOutline/120x80_PNGSheets/_Roll.png
+  artifactKey: Guid(72c3aac632689c64f9ab06d8b5af0fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/FreeKnight/Colour1/NoOutline/120x80_PNGSheets/_Roll.png using Guid(72c3aac632689c64f9ab06d8b5af0fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43fe190cf94f485bb90a4486027a1d56') in 0.023831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
